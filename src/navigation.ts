@@ -6,8 +6,8 @@ export const headerData = {
       text: 'Staking',
       links: [
         {
-          text: 'SaaS',
-          href: getPermalink('/homes/saas'),
+          text: 'Bitcoin Staking',
+          href: getPermalink('/staking/btc'),
         },
         {
           text: 'Startup',
