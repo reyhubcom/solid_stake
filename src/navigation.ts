@@ -18,8 +18,8 @@ export const headerData = {
           href: getPermalink('/staking/mon'),
         },
         {
-          text: 'Personal',
-          href: getPermalink('/homes/personal'),
+          text: 'Stake [ SOL ]',
+          href: getPermalink('/staking/sol'),
         },
       ],
     },
