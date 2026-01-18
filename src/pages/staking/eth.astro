@@ -1,0 +1,340 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+import Features2 from '~/components/widgets/Features2.astro';
+import Features from '~/components/widgets/Features.astro';
+import Stats from '~/components/widgets/Stats.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Brands from '~/components/widgets/Brands.astro';
+
+import { YouTube } from 'astro-embed';
+
+const metadata = {
+  title: 'Bitcoin Staking',
+};
+---
+
+<Layout metadata={metadata}>
+  <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=696bd7cb974e72ce84b88122&product=sop' async='async'></script>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline=""
+     actions={[
+      {
+        variant: 'secondary',
+        target: '_blank',
+        text: 'Stacks',
+        href: 'https://app.stackingdao.com/',
+        icon: 'tabler:link',
+      },
+      {
+        variant: 'secondary',
+        target: '_blank',
+        text: 'Hermetica',
+        href: 'https://app.hermetica.fi/portfolio',
+        icon: 'tabler:link',
+      },
+       {
+        variant: 'secondary',
+        target: '_blank',
+        text: 'Velar',
+        href: 'https://velar.com/',
+        icon: 'tabler:link',
+      },
+       {
+        variant: 'secondary',
+        target: '_blank',
+        text: 'Asigna',
+        href: 'https://www.asigna.io/',
+        icon: 'tabler:link',
+      },
+       {
+        variant: 'secondary',
+        target: '',
+        text: 'Staking',
+        href: '/staking/btc',
+        icon: 'tabler:circle-arrow-up-right',
+      },
+       
+    ]}
+  >
+    <Fragment slot="title">
+       <span class="hidden sm:inline"></span>  <span
+        class="text-accent dark:text-white"></span
+      > Bitcoin Staking
+    </Fragment>
+
+    <Fragment slot="subtitle">
+    <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#0693e3" lcw-marquee-1="coins" lcw-marquee-2="movers" lcw-marquee-items="30" ></div>
+
+ {
+  "logo": {
+    "light_url": "/kiln-light.svg",
+    "dark_url": "/kiln-dark.svg"
+  },
+  "theme": "light",
+  "rounding": "8",
+  "widget_style": "flat+border",
+  "widget_width": "compact",
+  "card_padding": "12",
+  "navigation": "segment",
+  "font_primary": "Geist",
+  "font_secondary": "IBM Plex Sans",
+  "navigation_titles": {
+    "overview": null,
+    "earn": null,
+    "withdraw": null
+  },
+  "show_icons": true,
+  "show_wallet": true,
+  "multi_chain": true,
+  "widget_title": null,
+  "styles": {
+    "color_brand_primary": {
+      "light": {
+        "value": "#FF6521FF"
+      },
+      "dark": {
+        "value": "#FF6521FF"
+      }
+    },
+    "color_brand_secondary": {
+      "light": {
+        "value": "#FF6521FF"
+      },
+      "dark": {
+        "value": "#FF6521FF"
+      }
+    },
+    "color_brand_secondary_10": {
+      "light": {
+        "value": "#FF65211A"
+      },
+      "dark": {
+        "value": "#FF65211A"
+      }
+    },
+    "color_surface_primary": {
+      "light": {
+        "value": "#FFFFFFFF"
+      },
+      "dark": {
+        "value": "#151515FF"
+      }
+    },
+    "color_surface_input": {
+      "light": {
+        "value": "#FFFFFFFF"
+      },
+      "dark": {
+        "value": "#333333FF"
+      }
+    },
+    "color_surface_world": {
+      "light": {
+        "value": "#F0F0F0FF"
+      },
+      "dark": {
+        "value": "#111111FF"
+      }
+    },
+    "color_surface_transparent": {
+      "light": {
+        "value": "#00000000"
+      },
+      "dark": {
+        "value": "#00000000"
+      }
+    },
+    "color_surface_underlay": {
+      "light": {
+        "value": "#F0F0F0FF"
+      },
+      "dark": {
+        "value": "#202020FF"
+      }
+    },
+    "color_text_primary": {
+      "light": {
+        "value": "#000000FF"
+      },
+      "dark": {
+        "value": "#FFFFFFFF"
+      }
+    },
+    "color_text_secondary": {
+      "light": {
+        "value": "#555555FF"
+      },
+      "dark": {
+        "value": "#A9A9A9FF"
+      }
+    },
+    "color_text_tertiary": {
+      "light": {
+        "value": "#888888FF"
+      },
+      "dark": {
+        "value": "#888888FF"
+      }
+    },
+    "color_text_additional": {
+      "light": {
+        "value": "#AAAAAAFF"
+      },
+      "dark": {
+        "value": "#FFFFFFFF"
+      }
+    },
+    "color_text_positive": {
+      "light": {
+        "value": "#57B01FFF"
+      },
+      "dark": {
+        "value": "#57B01FFF"
+      }
+    },
+    "color_text_negative": {
+      "light": {
+        "value": "#FC2424FF"
+      },
+      "dark": {
+        "value": "#FF3D3DFF"
+      }
+    },
+    "color_border_primary": {
+      "light": {
+        "value": "#D9D9D9FF"
+      },
+      "dark": {
+        "value": "#333333FF"
+      }
+    },
+    "color_border_secondary": {
+      "light": {
+        "value": "#D9D9D9FF"
+      },
+      "dark": {
+        "value": "#333333FF"
+      }
+    },
+    "color_border_input": {
+      "light": {
+        "value": "#000000FF"
+      },
+      "dark": {
+        "value": "#444444FF"
+      }
+    },
+    "color_border_divider": {
+      "light": {
+        "value": "#E5E5E5FF"
+      },
+      "dark": {
+        "value": "#292929FF"
+      }
+    },
+    "color_button_primary": {
+      "light": {
+        "value": "#FF6521FF"
+      },
+      "dark": {
+        "value": "#FF6521FF"
+      }
+    },
+    "color_button_primary_text": {
+      "light": {
+        "value": "#FFFFFFFF"
+      },
+      "dark": {
+        "value": "#FFFFFFFF"
+      }
+    },
+    "color_button_secondary": {
+      "light": {
+        "value": "#FFFFFFFF"
+      },
+      "dark": {
+        "value": "#333333FF"
+      }
+    },
+    "color_button_tertiary": {
+      "light": {
+        "value": "#FFFFFFFF"
+      },
+      "dark": {
+        "value": "#151515FF"
+      }
+    },
+    "radius_0": {
+      "value": "0px"
+    },
+    "radius_4": {
+      "value": "4px"
+    },
+    "radius_8": {
+      "value": "8px"
+    },
+    "radius_12": {
+      "value": "12px"
+    },
+    "radius_16": {
+      "value": "16px"
+    },
+    "radius_20": {
+      "value": "20px"
+    },
+    "radius_24": {
+      "value": "24px"
+    },
+    "radius_28": {
+      "value": "28px"
+    },
+    "radius_32": {
+      "value": "32px"
+    },
+    "radius_100": {
+      "value": "999px"
+    }
+  },
+  "footer_links": [],
+  "footer_logo": null,
+  "lifi_provider": null,
+  "hide_fees": false,
+  "deployment_banner": null
+}
+    </Fragment>
+
+    <Fragment slot="image">
+      
+    </Fragment>
+  </Hero>
+
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+    title="Stake Your Bitcoin, Earn Reward"
+    subtitle="Unleash your Bitcoin’s potential with Babylon and Stacks. Earn rewards through innovative staking solutions while maintaining the security of your BTC. Join the evolution of Bitcoin utility and start maximizing your holdings today."
+  >
+   
+  </Features2>
+
+  <!-- Stats Widget ****************** -->
+</Hero>
+
+  <!-- Note Widget ******************* -->
+ <script>
+  (function(){var w=window;if(w.ChannelIO){return w.console.error("ChannelIO script included twice.");}var ch=function(){ch.c(arguments);};ch.q=[];ch.c=function(args){ch.q.push(args);};w.ChannelIO=ch;function l(){if(w.ChannelIOInitialized){return;}w.ChannelIOInitialized=true;var s=document.createElement("script");s.type="text/javascript";s.async=true;s.src="https://cdn.channel.io/plugin/ch-plugin-web.js";var x=document.getElementsByTagName("script")[0];if(x.parentNode){x.parentNode.insertBefore(s,x);}}if(document.readyState==="complete"){l();}else{w.addEventListener("DOMContentLoaded",l);w.addEventListener("load",l);}})();
+
+  ChannelIO('boot', {
+    "pluginKey": "06d5cc16-c6cd-4f80-9207-eac3f610a212"
+  });
+</script>
+ 
+  
+</Layout>
