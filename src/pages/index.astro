@@ -23,29 +23,31 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-   
-  
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Get template',
+        href: 'https://github.com/arthelokyo/astrowind',
+        target: '_blank',
+        icon: 'tabler:download',
+      },
+      { text: 'Learn more', href: '#features' },
+    ]}
+    image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
   >
     <Fragment slot="title">
-      Secure <span class="hidden xl:inline"></span>
-      <span class="text-accent dark:text-white"> </span> Staking
+      Free template for <span class="hidden xl:inline">creating websites with</span>
+      <span class="text-accent dark:text-white"> Astro 5.0</span> + Tailwind CSS
+    </Fragment>
 
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="font-semibold">Less Risk</span> More Rewards
-        </span
-       
+        <span class="font-semibold">AstroWind</span> is a free, customizable and production-ready template for Astro 5.0
+        + Tailwind CSS.</span
       >
-
-    <Fragment slot="subtitle">
-      <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#0693e9" lcw-marquee-1="coins" lcw-marquee-2="movers" lcw-marquee-items="30" ></div>
-      <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.7.1/dist/dotlottie-wc.js" type="module"></script>
-<dotlottie-wc src="https://lottie.host/fbd7b780-753e-41e2-9c2c-0ec61aaceedb/6OZFWnB816.lottie" speed="1" style="width: 100%; height: 530px" mode="forward" loop autoplay></dotlottie-wc>
-      <span class="hidden sm:inline">
-        <span class="font-semibold">Elevate</span> Your Earnings effortlessly by securely </span
-      >
-      <span class="block mb-1 sm:hidden font-bold text-blue-600"></span>
-     Staking your funds with professional POS validator. Each delegation not only strengthens decentralization but also contributes to our continuous growth, enabling us to enhance our services and provide you with an even better staking experience.
+      <span class="block mb-1 sm:hidden font-bold text-blue-600">AstroWind: Production-ready.</span>
+      Suitable for Startups, Small Business, SaaS websites, Professional Portfolios, Marketing websites, Landing Pages &
+      Blogs.
     </Fragment>
   </Hero>
 
@@ -375,11 +377,24 @@ const metadata = {
 
   <!-- CallToAction Widget *********** -->
 
-  <script>
-  (function(){var w=window;if(w.ChannelIO){return w.console.error("ChannelIO script included twice.");}var ch=function(){ch.c(arguments);};ch.q=[];ch.c=function(args){ch.q.push(args);};w.ChannelIO=ch;function l(){if(w.ChannelIOInitialized){return;}w.ChannelIOInitialized=true;var s=document.createElement("script");s.type="text/javascript";s.async=true;s.src="https://cdn.channel.io/plugin/ch-plugin-web.js";var x=document.getElementsByTagName("script")[0];if(x.parentNode){x.parentNode.insertBefore(s,x);}}if(document.readyState==="complete"){l();}else{w.addEventListener("DOMContentLoaded",l);w.addEventListener("load",l);}})();
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Get template',
+        href: 'https://github.com/arthelokyo/astrowind',
+        target: '_blank',
+        icon: 'tabler:download',
+      },
+    ]}
+  >
+    <Fragment slot="title">
+      Astro&nbsp;+&nbsp;<br class="block sm:hidden" /><span class="sm:whitespace-nowrap">Tailwind CSS</span>
+    </Fragment>
 
-  ChannelIO('boot', {
-    "pluginKey": "06d5cc16-c6cd-4f80-9207-eac3f610a212"
-  });
-</script>
+    <Fragment slot="subtitle">
+      Be very surprised by these huge fake numbers you are seeing on this page. <br class="hidden md:inline" />Don't
+      waste more time! :P
+    </Fragment>
+  </CallToAction>
 </Layout>
