@@ -39,7 +39,7 @@ const metadata = {
     </Fragment>
     <Fragment slot="subtitle">
       <span class="hidden sm:inline">
-        <span class="fext-accent dark:text-white">Staking Platforms </span> Services Trusted by Institutions
+        <span class="font-semibold">Staking Platforms </span> Services Trusted by Institutions
         </span
        
       >
