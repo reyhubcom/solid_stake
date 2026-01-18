@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: SolidStake.xyz
+  site: 'https://solidstake.xyz'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: SolidStake.xyz
+    template: 'SolidStake.xyz'
+  description: "Elevate Your Earnings effortlessly by securely Staking your funds with professional POS validator. Each delegation not only strengthens decentralization but also contributes to our continuous growth, enabling us to enhance our services and provide you with an even better staking experience."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: SolidStake.xyz
     images:
       - url: '~/assets/images/default.png'
         width: 1200
