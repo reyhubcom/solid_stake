@@ -10,8 +10,8 @@ export const headerData = {
           href: getPermalink('/staking/btc'),
         },
         {
-          text: 'Startup',
-          href: getPermalink('/homes/startup'),
+          text: 'Stake [ ETH ]',
+          href: getPermalink('/staking/eth'),
         },
         {
           text: 'Mobile App',
