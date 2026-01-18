@@ -14,8 +14,8 @@ export const headerData = {
           href: getPermalink('/staking/eth'),
         },
         {
-          text: 'Mobile App',
-          href: getPermalink('/homes/mobile-app'),
+          text: 'Stake [ MON ]',
+          href: getPermalink('/staking/mon'),
         },
         {
           text: 'Personal',
