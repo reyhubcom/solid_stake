@@ -1,0 +1,323 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+
+import Hero from '~/components/widgets/Hero.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+
+import Features2 from '~/components/widgets/Features2.astro';
+import Features from '~/components/widgets/Features.astro';
+import Stats from '~/components/widgets/Stats.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import FAQs from '~/components/widgets/FAQs.astro';
+import Brands from '~/components/widgets/Brands.astro';
+
+import { YouTube } from 'astro-embed';
+
+const metadata = {
+  title: 'Bitcoin Staking',
+};
+---
+
+<Layout metadata={metadata}>
+ <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=696bd7cb974e72ce84b88122&product=sop' async='async'></script>
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline=""
+     actions={[
+      {
+        variant: 'secondary',
+        target: '_blank',
+        text: 'Stacks',
+        href: 'https://app.stackingdao.com/',
+        icon: 'tabler:link',
+      },
+      {
+        variant: 'secondary',
+        target: '_blank',
+        text: 'Hermetica',
+        href: 'https://app.hermetica.fi/portfolio',
+        icon: 'tabler:link',
+      },
+       {
+        variant: 'secondary',
+        target: '_blank',
+        text: 'Velar',
+        href: 'https://velar.com/',
+        icon: 'tabler:link',
+      },
+       {
+        variant: 'secondary',
+        target: '_blank',
+        text: 'Asigna',
+        href: 'https://www.asigna.io/',
+        icon: 'tabler:link',
+      },
+       {
+        variant: 'secondary',
+        target: '',
+        text: 'Staking',
+        href: '/bitcoin/btc.2',
+        icon: 'tabler:circle-arrow-up-right',
+      },
+       
+    ]}
+  >
+    <Fragment slot="title">
+       <span class="hidden sm:inline"></span>  <span
+        class="text-accent dark:text-white"></span
+      > Stocks Markets
+      </Fragment>
+   <Fragment slot="subtitle">
+      <span class="hidden sm:inline">
+        <span class="font-semibold">DeFi </span> Liquidity Protocol on Bitcoin
+        </span
+       
+      >
+</Fragment>
+
+    <Fragment slot="subtitle">
+    <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#0693e3" lcw-marquee-1="coins" lcw-marquee-2="movers" lcw-marquee-items="30" ></div>
+
+ <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a><span class="trademark"> </span></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
+  {
+  "colorTheme": "dark",
+  "dateRange": "1D",
+  "locale": "en",
+  "largeChartUrl": "",
+  "isTransparent": true,
+  "showFloatingTooltip": false,
+  "plotLineColorGrowing": "rgba(34, 171, 148, 1)",
+  "plotLineColorFalling": "rgba(247, 82, 95, 1)",
+  "gridLineColor": "rgba(240, 243, 250, 0)",
+  "scaleFontColor": "#DBDBDB",
+  "belowLineFillColorGrowing": "rgba(41, 98, 255, 0.12)",
+  "belowLineFillColorFalling": "rgba(41, 98, 255, 0.12)",
+  "belowLineFillColorGrowingBottom": "rgba(41, 98, 255, 0)",
+  "belowLineFillColorFallingBottom": "rgba(41, 98, 255, 0)",
+  "symbolActiveColor": "rgba(41, 98, 255, 0.12)",
+  "tabs": [
+    {
+      "title": "Stocks Markets",
+      "symbols": [
+        {
+          "s": "NASDAQ:TSLA",
+          "d": "",
+          "logoid": "tesla",
+          "currency-logoid": "country/US"
+        },
+        {
+          "s": "NASDAQ:NVDA",
+          "d": "",
+          "logoid": "nvidia",
+          "currency-logoid": "country/US"
+        },
+        {
+          "s": "NASDAQ:AAPL",
+          "d": "",
+          "logoid": "apple",
+          "currency-logoid": "country/US"
+        },
+        {
+          "s": "NASDAQ:AMZN",
+          "d": "",
+          "logoid": "amazon",
+          "currency-logoid": "country/US"
+        },
+        {
+          "s": "NASDAQ:META",
+          "d": "",
+          "logoid": "meta-platforms",
+          "currency-logoid": "country/US"
+        },
+        {
+          "s": "NASDAQ:PLTR",
+          "d": "",
+          "logoid": "palantir",
+          "currency-logoid": "country/US"
+        },
+        {
+          "s": "NASDAQ:MSFT",
+          "d": "",
+          "logoid": "microsoft",
+          "currency-logoid": "country/US"
+        },
+        {
+          "s": "NASDAQ:AMD",
+          "d": "",
+          "logoid": "advanced-micro-devices",
+          "currency-logoid": "country/US"
+        },
+        {
+          "s": "NASDAQ:MSTR",
+          "d": "",
+          "logoid": "strategy-cad-hedged-cibc-cdr",
+          "currency-logoid": "country/US"
+        },
+        {
+          "s": "NASDAQ:GOOGL",
+          "d": "",
+          "logoid": "alphabet",
+          "currency-logoid": "country/US"
+        },
+        {
+          "s": "NASDAQ:AVGO",
+          "d": "",
+          "logoid": "broadcom",
+          "currency-logoid": "country/US"
+        },
+        {
+          "s": "NYSE:ORCL",
+          "d": "",
+          "logoid": "oracle",
+          "currency-logoid": "country/US"
+        },
+        {
+          "s": "NASDAQ:COIN",
+          "d": "",
+          "logoid": "coinbase",
+          "currency-logoid": "country/US"
+        },
+        {
+          "s": "NASDAQ:HOOD",
+          "d": "",
+          "logoid": "robinhood",
+          "currency-logoid": "country/US"
+        },
+        {
+          "s": "NASDAQ:ASTS",
+          "d": "",
+          "logoid": "ast-spacemobile",
+          "currency-logoid": "country/US"
+        },
+        {
+          "s": "NYSE:NVO",
+          "d": "",
+          "logoid": "novo-nordisk",
+          "currency-logoid": "country/US"
+        },
+        {
+          "s": "NSE:ICICIBANK",
+          "d": "",
+          "logoid": "icici-bank",
+          "currency-logoid": "country/IN"
+        },
+        {
+          "s": "NSE:AXISBANK",
+          "d": "",
+          "logoid": "axis-bank",
+          "currency-logoid": "country/IN"
+        },
+        {
+          "s": "NYSE:CRCL",
+          "d": "",
+          "logoid": "circle-internet-group-inc",
+          "currency-logoid": "country/US"
+        },
+        {
+          "s": "NSE:INFY",
+          "d": "",
+          "logoid": "infosys",
+          "currency-logoid": "country/IN"
+        },
+        {
+          "s": "NSE:KOTAKBANK",
+          "d": "",
+          "logoid": "kotak-mahindra-bank",
+          "currency-logoid": "country/IN"
+        },
+        {
+          "s": "NSE:TCS",
+          "d": "",
+          "logoid": "tata",
+          "currency-logoid": "country/IN"
+        },
+        {
+          "s": "NSE:ADANIPORTS",
+          "d": "",
+          "logoid": "adani",
+          "currency-logoid": "country/IN"
+        },
+        {
+          "s": "NSE:BEL",
+          "d": "",
+          "logoid": "bharat-electronics",
+          "currency-logoid": "country/IN"
+        },
+        {
+          "s": "NSE:M&M",
+          "d": "",
+          "logoid": "mahindra",
+          "currency-logoid": "country/IN"
+        },
+        {
+          "s": "NASDAQ:CRWD",
+          "d": "",
+          "logoid": "crowdstrike",
+          "currency-logoid": "country/US"
+        },
+        {
+          "s": "NSE:HEROMOTOCO",
+          "d": "",
+          "logoid": "hero-motocorp",
+          "currency-logoid": "country/IN"
+        },
+        {
+          "s": "RUS:LKOH",
+          "d": "",
+          "logoid": "lukoil",
+          "currency-logoid": "country/RU"
+        },
+        {
+          "s": "NSE:RECLTD",
+          "d": "",
+          "logoid": "rec",
+          "currency-logoid": "country/IN"
+        }
+      ],
+      "originalTitle": "Indices"
+    }
+  ],
+  "support_host": "https://www.tradingview.com",
+  "backgroundColor": "#0f0f0f",
+  "width": "100%",
+  "height": "550",
+  "showSymbolLogo": true,
+  "showChart": true
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
+    </Fragment>
+
+    <Fragment slot="image">
+      
+    </Fragment>
+  </Hero>
+
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+    title="Stake Your Bitcoin, Earn Reward"
+    subtitle="Unleash your Bitcoin’s potential with Babylon and Stacks. Earn rewards through innovative staking solutions while maintaining the security of your BTC. Join the evolution of Bitcoin utility and start maximizing your holdings today."
+  >
+   
+  </Features2>
+
+  <!-- Stats Widget ****************** -->
+</Hero>
+
+  <!-- Note Widget ******************* -->
+ <script>
+  (function(){var w=window;if(w.ChannelIO){return w.console.error("ChannelIO script included twice.");}var ch=function(){ch.c(arguments);};ch.q=[];ch.c=function(args){ch.q.push(args);};w.ChannelIO=ch;function l(){if(w.ChannelIOInitialized){return;}w.ChannelIOInitialized=true;var s=document.createElement("script");s.type="text/javascript";s.async=true;s.src="https://cdn.channel.io/plugin/ch-plugin-web.js";var x=document.getElementsByTagName("script")[0];if(x.parentNode){x.parentNode.insertBefore(s,x);}}if(document.readyState==="complete"){l();}else{w.addEventListener("DOMContentLoaded",l);w.addEventListener("load",l);}})();
+
+  ChannelIO('boot', {
+    "pluginKey": "06d5cc16-c6cd-4f80-9207-eac3f610a212"
+  });
+</script>
+  
+</Layout>
