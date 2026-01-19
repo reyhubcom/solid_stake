@@ -35,29 +35,10 @@ export const headerData = {
           href: getPermalink('/stocks/markets'),
         },
         {
-          text: 'Services',
-          href: getPermalink('/services'),
+          text: 'Liquid',
+          href: getPermalink('/liquid/token'),
         },
-        {
-          text: 'Pricing',
-          href: getPermalink('/pricing'),
-        },
-        {
-          text: 'About us',
-          href: getPermalink('/about'),
-        },
-        {
-          text: 'Contact',
-          href: getPermalink('/contact'),
-        },
-        {
-          text: 'Terms',
-          href: getPermalink('/terms'),
-        },
-        {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
-        },
+        
       ],
     },
     {
