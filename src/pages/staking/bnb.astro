@@ -14,12 +14,12 @@ import Brands from '~/components/widgets/Brands.astro';
 import { YouTube } from 'astro-embed';
 
 const metadata = {
-  title: 'Pulsechain Staking',
+  title: 'Bitcoin Staking',
 };
 ---
 
 <Layout metadata={metadata}>
-  <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=68f5508a4f065effd6283e6b&product=sop' async='async'></script>
+  <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=696bd7cb974e72ce84b88122&product=sop' async='async'></script>
   <!-- Hero Widget ******************* -->
 
   <Hero
@@ -28,8 +28,8 @@ const metadata = {
       {
         variant: 'secondary',
         target: '_blank',
-        text: 'PulseX',
-        href: 'https://pulsex.mypinata.cloud/ipfs/bafybeiajyhfbf6evh4mdabassmbtsy73ci2gmcgh4ffmjkrgsea35vqxba/#/farms',
+        text: 'Stacks',
+        href: 'https://app.stackingdao.com/',
         icon: 'tabler:link',
       },
       {
@@ -57,7 +57,7 @@ const metadata = {
         variant: 'secondary',
         target: '',
         text: 'Staking',
-        href: '/btc/btc-1',
+        href: '/staking/btc',
         icon: 'tabler:circle-arrow-up-right',
       },
        
@@ -66,7 +66,7 @@ const metadata = {
     <Fragment slot="title">
        <span class="hidden sm:inline"></span>  <span
         class="text-accent dark:text-white"></span
-      > Pulse Staking
+      > Bitcoin Staking
     </Fragment>
 
     <Fragment slot="subtitle">
@@ -75,7 +75,7 @@ const metadata = {
  <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols//" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a><span class="trademark"></span></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/BTCUSD/?exchange=CRYPTO" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a><span class="trademark"></span></div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
   {
   "lineWidth": 2,
@@ -104,7 +104,7 @@ const metadata = {
   "changeMode": "price-and-percent",
   "symbols": [
     [
-      "PULSEX:WPLSDAI_E56043.USD|1M"
+      "CRYPTO:BTCUSD|1M"
     ]
   ],
   "dateRanges": [
@@ -138,8 +138,8 @@ const metadata = {
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="Stake Your Pulse, Earn Reward"
-    subtitle=" PulseChain uses a Proof-of-Stake (PoS) consensus mechanism, which allows participants to secure the network through staking. There are two primary methods for participating: becoming a validator (requiring 32 million PLS) or using liquid staking (for smaller amounts)."
+    title="Stake Your Bitcoin, Earn Reward"
+    subtitle="Unleash your Bitcoin’s potential with Babylon and Stacks. Earn rewards through innovative staking solutions while maintaining the security of your BTC. Join the evolution of Bitcoin utility and start maximizing your holdings today."
   >
    
   </Features2>
@@ -152,7 +152,7 @@ const metadata = {
   (function(){var w=window;if(w.ChannelIO){return w.console.error("ChannelIO script included twice.");}var ch=function(){ch.c(arguments);};ch.q=[];ch.c=function(args){ch.q.push(args);};w.ChannelIO=ch;function l(){if(w.ChannelIOInitialized){return;}w.ChannelIOInitialized=true;var s=document.createElement("script");s.type="text/javascript";s.async=true;s.src="https://cdn.channel.io/plugin/ch-plugin-web.js";var x=document.getElementsByTagName("script")[0];if(x.parentNode){x.parentNode.insertBefore(s,x);}}if(document.readyState==="complete"){l();}else{w.addEventListener("DOMContentLoaded",l);w.addEventListener("load",l);}})();
 
   ChannelIO('boot', {
-    "pluginKey": "d8136106-354a-4734-adb1-21da70253c66"
+    "pluginKey": "06d5cc16-c6cd-4f80-9207-eac3f610a212"
   });
 </script>
  
