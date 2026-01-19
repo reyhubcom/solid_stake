@@ -21,6 +21,10 @@ export const headerData = {
           text: 'Stake [ SOL ]',
           href: getPermalink('/staking/sol'),
         },
+        {
+          text: 'All Chains',
+          href: getPermalink('/all/chains'),
+        },
       ],
     },
     {
