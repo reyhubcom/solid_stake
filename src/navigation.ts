@@ -31,8 +31,8 @@ export const headerData = {
       text: 'Products',
       links: [
         {
-          text: 'Features (Anchor Link)',
-          href: getPermalink('/#features'),
+          text: 'Stocks',
+          href: getPermalink('/stocks/markets'),
         },
         {
           text: 'Services',
