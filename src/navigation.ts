@@ -96,11 +96,11 @@ export const headerData = {
       ],
     },
     {
-      text: 'Widgets',
-      href: '#',
+      text: 'Exchange',
+      href: '/home/exchange',
     },
   ],
-  actions: [{ text: 'EXCHANGE', href: '/home/exchange', target: '' }],
+  actions: [{ text: 'MEME', href: '/home/exchange', target: '' }],
 };
 
 export const footerData = {
