@@ -45,29 +45,10 @@ export const headerData = {
       text: 'Lending',
       links: [
         {
-          text: 'Ethereum',
+          text: 'Lend & Borrow',
           href: getPermalink('/landing/lead-generation'),
         },
-        {
-          text: 'BNB Chain',
-          href: getPermalink('/landing/sales'),
-        },
-        {
-          text: 'Gnosis Chain',
-          href: getPermalink('/landing/click-through'),
-        },
-        {
-          text: 'Polygon',
-          href: getPermalink('/landing/product'),
-        },
-        {
-          text: 'Fantom',
-          href: getPermalink('/landing/pre-launch'),
-        },
-        {
-          text: 'All Lending',
-          href: getPermalink('/landing/subscription'),
-        },
+        
       ],
     },
     {
