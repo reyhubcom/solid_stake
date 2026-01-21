@@ -42,30 +42,30 @@ export const headerData = {
       ],
     },
     {
-      text: 'Landing',
+      text: 'Lending',
       links: [
         {
-          text: 'Lead Generation',
+          text: 'Ethereum',
           href: getPermalink('/landing/lead-generation'),
         },
         {
-          text: 'Long-form Sales',
+          text: 'BNB Chain',
           href: getPermalink('/landing/sales'),
         },
         {
-          text: 'Click-Through',
+          text: 'Gnosis Chain',
           href: getPermalink('/landing/click-through'),
         },
         {
-          text: 'Product Details (or Services)',
+          text: 'Polygon',
           href: getPermalink('/landing/product'),
         },
         {
-          text: 'Coming Soon or Pre-Launch',
+          text: 'Fantom',
           href: getPermalink('/landing/pre-launch'),
         },
         {
-          text: 'Subscription',
+          text: 'All Lending',
           href: getPermalink('/landing/subscription'),
         },
       ],
