@@ -38,6 +38,10 @@ export const headerData = {
           text: 'Liquid',
           href: getPermalink('/liquid/token'),
         },
+         {
+          text: 'OnChain',
+          href: getPermalink('/onchain/gm'),
+        },
         
       ],
     },
