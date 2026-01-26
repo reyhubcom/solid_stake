@@ -50,7 +50,7 @@ export const headerData = {
       links: [
         {
           text: 'Lend & Borrow',
-          href: getPermalink('/landing/lead-generation'),
+          href: getPermalink('/lending/borrow'),
         },
         
       ],
